@@ -1,0 +1,60 @@
+.calc{
+			background-color: white;
+			height: 370px;
+			width: 250px;
+			margin: 10% 40%;
+
+			border-radius: 25px;
+			padding: 20px;
+			box-shadow: 0px 0px 10px grey;
+		}
+		input
+		{
+			width: 50px;
+			height: 50px;
+			background-color: black;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			margin: 4px;
+			font-weight: bolder;
+			transition-duration: 0.5s;
+		}
+		.operator{
+			background-color: orangered;
+		}	
+		.ac{
+			width: 112px;
+			margin-right: 5px;
+		}
+		
+		.op{
+			height: 70px;
+			width: 230px;
+			background-color: transparent;
+			box-shadow: 0px 0px 2px grey;
+			color: black;
+			font-size: 30px;
+			text-align: right;
+		}
+
+		#allclear
+		{
+			background-color: orangered;
+
+		}
+		.operator:hover
+		{
+			transform: scale(0.9);
+		}
+		input[type="button"]:hover
+		{
+			transform: scale(0.9);
+			box-shadow: 0px 0px 5px orangered;
+			color: lightgreen;
+		}
+		.bd
+		{
+			background-image: url('https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg?w=996&t=st=1698257141~exp=1698257741~hmac=37ae67ee00374968001e7aede38d33004173723ae5b3986611bbb1e0dd96376f');
+			
+		}
